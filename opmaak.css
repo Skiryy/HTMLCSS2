@@ -3,12 +3,25 @@ body{
   background-color: #30475E;
 }
 
+.main {
+  display: flex;
+}
+
+
+h1 {
+  color: #CBAF87;
+  font-size: 40px;
+}
+p{
+  color: #E7DEC8;
+}
 nav{
   display: flex;
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4)
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+
 }
 .menu{
   flex: 1;
@@ -48,4 +61,8 @@ nav{
 .menu li a{
   margin-right: 15px;
   margin-left: 15px;
+}
+img{
+  padding-left: 50px;
+  float: right;
 }
